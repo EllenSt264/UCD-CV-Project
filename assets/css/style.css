@@ -4,6 +4,7 @@
 body {
     background-color: #000000d9;
     font-family: 'Chivo', sans-serif;
+    color: white;   
 }
 
 .navbar-custom {
@@ -26,9 +27,6 @@ body {
     }
 
 
-    
-
-
 div h6 {
     text-align: center;
     color: #ff0101bf;
@@ -44,7 +42,7 @@ div h6 {
 #home-slogan {
     text-align: center;
 
-    padding: 50px 25px 25px 25px;
+    padding: 75px 25px 25px 25px;
     margin: 10px;
 
     text-transform: uppercase;
@@ -57,5 +55,31 @@ div h6 {
     height: 350px;
     width: 350px;
 
+    clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
+
     border: 5px solid #50505070;
 }
+
+#home-img {
+    padding-bottom: 40%;
+}
+
+.grid-test {
+    border: 3px solid red;
+}
+
+.scroll-down {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    z-index: 1;
+}
+
+    .scroll-down a {
+        color: #ff0101bf;
+    }
+
+    .scroll-down a:hover, .scroll-down a:active {
+        color: white;
+    }
