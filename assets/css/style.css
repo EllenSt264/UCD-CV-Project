@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Chivo:wght@400;700&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;900&family=Roboto+Slab:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #000000d9;
@@ -7,25 +11,95 @@ body {
     color: white;   
 }
 
-.navbar-custom {
-    background-color: inherit;
-    width: 100%;
 
-    font-family: 'Cinzel Decorative', cursive;
-}
+/* HOMEPAGE */
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
 
-    .nav-item a:hover {
-        background-color: #ff0101bf;
+/* NAVBAR  */
+
+    .navbar-brand {
+        margin: 0;
     }
 
-    .nav-item a:active {
-        background-color: #ff0101bf;
+    .navbar-custom {
+        background-color: inherit;
+        width: 100%;
+
+        font-family: 'Cinzel Decorative', cursive;
+
+        z-index: 4;
     }
 
+        .nav-item a:hover {
+            background-color: #ff0101bf;
+        }
+
+        .nav-item a:active {
+            background-color: #ff0101bf;
+        }  
+    
+
+
+        .overlay {
+            height: 0%;
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+
+            /* background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9); */
+
+            background-image: url("../img/Vn75gs.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+
+            overflow-y: hidden;
+            transition: 0.5s;
+          }
+          
+          .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+          }
+
+          .navbar-dark .navbar-nav .nav-link {
+            color: rgb(255 255 255);
+          }
+          
+          .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .overlay a:hover, .overlay a:focus {
+            color: #ff0101bf;
+          }
+          
+          .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+          }
+          
+
+
+
+/* NAVBAR  */
+
+
+/* HOME PROFILE */
 
 div h6 {
     text-align: center;
@@ -39,39 +113,39 @@ div h6 {
     font-size: 400%;
 }
 
-#home-slogan {
-    text-align: center;
+    #home-slogan {
+        text-align: center;
 
-    padding: 75px 25px 25px 25px;
-    margin: 10px;
+        padding: 75px 25px 25px 25px;
+        margin: 10px;
 
-    text-transform: uppercase;
-    color: white;
-}
+        text-transform: uppercase;
+        color: white;
+    }
 
-#home-profile-img {
-    background: url("../img/BW_Profile_IMG5.jpg") no-repeat center;
-    background-size: contain;
-    height: 350px;
-    width: 350px;
+    #home-profile-img {
+        background: url("../img/BW_Profile_IMG5.jpg") no-repeat center;
+        background-size: contain;
+        height: 350px;
+        width: 350px;
 
-    clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
+        clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
 
-    border: 5px solid #50505070;
-}
+        border: 5px solid #50505070;
+    }
 
-#home-img {
-    padding-bottom: 40%;
-}
+    #home-img {
+        padding-bottom: 40%;
+    }
 
-.grid-test {
-    border: 3px solid red;
-}
+/* MAIN */
+
+
 
 .scroll-down {
     display: block;
     position: absolute;
-    bottom: 0px;
+    bottom: 5px;
     right: 5%;
     z-index: 1;
 }
@@ -83,3 +157,20 @@ div h6 {
     .scroll-down a:hover, .scroll-down a:active {
         color: white;
     }
+
+
+
+/* HOMEPAGE */
+
+
+/* PROFILE PAGE */
+
+
+.chapter_title {
+    background-color: #ff0101bf;
+}
+
+.chapter_content {
+    background-color: whitesmoke;
+    color: black;
+}
