@@ -114,9 +114,9 @@ body {
 
 /* HOME PROFILE */
 
-div h6 {
+#homepage h6 {
     text-align: center;
-    color: #ff0101bf;
+    color: #dc3545;
 
     padding: 25px;
     margin: 10px;
@@ -142,9 +142,11 @@ div h6 {
         height: 350px;
         width: 350px;
 
-        clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%);
+        border: 4px solid #50505070;
 
-        border: 5px solid #50505070;
+        /* clip-path: polygon(33.33% 0%, 66.66% 0%, 100% 33.33%, 100% 66.66%, 66.66% 100%, 33.33% 100%, 0 66.66%, 0 33.33%); */
+
+        /* border: 5px solid #50505070; */
     }
 
     #home-img {
@@ -164,7 +166,7 @@ div h6 {
 }
 
     .scroll-down a {
-        color: #ff0101bf;
+        color: #dc3545;
     }
 
     .scroll-down a:hover, .scroll-down a:active {
@@ -180,10 +182,30 @@ div h6 {
 
 
 .chapter_title {
-    background-color: #ff0101bf;
+    background-color: #dc3545;
 }
+
+    .chapter_title h2 {
+        text-align: center;
+        line-height: 100vh;
+
+        text-transform: uppercase;
+        font-weight: bolder;
+
+        font-family: 'Cinzel';
+        font-size: 50px;
+    }
 
 .chapter_content {
     background-color: whitesmoke;
     color: black;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
 }
+
+    

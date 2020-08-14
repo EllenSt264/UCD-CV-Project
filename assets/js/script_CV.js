@@ -5,3 +5,18 @@ function openNav() {
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
+
+  $(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Read More');
+            } else {
+                toggle_switch.html('Read Less');
+            }
+        });
+    });
+
+});
