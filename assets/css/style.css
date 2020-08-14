@@ -38,6 +38,19 @@ body {
             background-color: #ff0101bf;
         }  
     
+    
+        #navbutton-div {
+            float: left;
+            margin-right: 15px;
+        }
+
+        #navbutton {
+            position: fixed;
+            top: 15;
+            right: 10;
+            
+            z-index: 5;
+        }
 
 
         .overlay {
