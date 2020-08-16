@@ -23,7 +23,7 @@ body h6 {
 /* HOMEPAGE */
 
 
-/* NAVBAR  */
+    /* NAVBAR  */
 
     .navbar-brand {
         margin: 0;
@@ -117,24 +117,11 @@ body h6 {
 
 
 
-/* NAVBAR  */
+    /* NAVBAR  */
 
 
-/* HOME PROFILE */
+    /* MAIN */
 
-/* .hero {
-    background-image: url(../img/BW_DSC_0662.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 90vh;
-    filter: blur(0.6px);
-    animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
-} */
 
 .hero-container {
     height: 100vh;
@@ -190,6 +177,7 @@ body h6 {
     }
 
 
+   /* MAIN */
    
 
 /* HOMEPAGE */
@@ -239,7 +227,18 @@ body h6 {
     height: 5px;
     border: 0;
     background-color: #444;
-    
 }
+
+#profile-img {
+    background: url("../img/BW_Profile_IMG7.jpg") no-repeat center;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+
+    border-radius: 50%;
+    border: 3px solid #444;
+}
+
+
 
     
