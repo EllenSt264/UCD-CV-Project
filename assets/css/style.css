@@ -195,6 +195,11 @@ body h6 {
     background-color: #00000000;
 }
 
+.chapter_title_3 {
+    background-color: whitesmoke;
+    color: black;
+}
+
     .chapter_title h2 {
         text-align: center;
         line-height: 100vh;
@@ -223,23 +228,41 @@ body h6 {
     color: white;
 }
 
+.chapter_content_3 {
+    background-color: #00000000;
+    color: white;
+}
+
 .block-divider {
     width: 150px;
     height: 5px;
     border: 0;
     background-color: #444;
+
+    justify-content: center;
 }
 
 #profile-img {
     background: url("../img/BW_Profile_IMG7.jpg") no-repeat center;
     background-size: cover;
-    height: 250px;
-    width: 250px;
+    min-height: 250px;
+    min-width: 250px;
 
     border-radius: 50%;
     border: 3px solid #444;
 }
 
+#skills {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
-    
+.skill-title {
+    font-size: 15px;
+    text-align: left;
+}
+.skill-score {
+    color: white;
+    font-size: 12px;
+}
