@@ -181,10 +181,12 @@ body h6 {
    /* MAIN */
    
 
+
 /* HOMEPAGE */
 
 
-/* PROFILE PAGE */
+
+/* PAGE CONFIGURATION */
 
 
 .chapter_title {
@@ -242,6 +244,15 @@ body h6 {
     justify-content: center;
 }
 
+
+/* PAGE CONFIGURATION */
+
+
+
+
+/* PROFLE PAGE */
+
+
 #profile-img {
     background: url("../img/BW_Profile_IMG7.jpg") no-repeat center;
     background-size: cover;
@@ -251,6 +262,14 @@ body h6 {
     border-radius: 50%;
     border: 3px solid #444;
 }
+
+
+/* PROFLE PAGE */
+
+
+
+/* SKILLS PAGE */
+
 
 #skills {
     display: inline-flex;
@@ -266,3 +285,25 @@ body h6 {
     color: white;
     font-size: 12px;
 }
+
+
+/* SKILLS PAGE */
+
+
+
+
+/* FOOTER */
+
+
+footer, .jumbotron {
+    background-color: #dc3545;
+}
+
+footer .jumbotron {
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* FOOTER */
+
