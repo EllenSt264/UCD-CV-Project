@@ -124,7 +124,7 @@ body h6 {
 
 
 .hero-container {
-    height: 100vh;
+    height: 95vh;
 
     background: url("../img/BW_DSC_0662.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
@@ -132,37 +132,38 @@ body h6 {
     -o-background-size: cover;
     background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
 
     position: relative;
 }
 
 #homepage h6 {
-    text-align: center;
     color: #dc3545;
 
-    padding: 25px;
-    margin: 10px;
+    position: absolute;
+    top: -25px;
 }
 
 .scroll-down {
-    display: block;
-    position: absolute;
-    bottom: 0px;
-    right: 5%;
-    z-index: 5;
-
-    text-align: center;
-
     color: #dc3545;
+
+    position: absolute;
+    bottom: 5vh;
+    
+
 }
 
     .scroll-down:hover, .scroll-down:active {
         color: white;
     }
 
+    .vertical-center {
+        min-height: 100%;  /* Fallback for browsers that do NOT support vh unit */
+        min-height: 100vh; 
+
+        display: flex;
+        align-items: center;
+    }
 
   .jumbotron {
       background-color: #e9ecef00;
